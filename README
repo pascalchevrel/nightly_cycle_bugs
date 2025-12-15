@@ -1,0 +1,9 @@
+## Get data from all bugs in a Firefox development cycle
+
+----------------------------------------------------------------------
+Firefox Nightly Bug Extraction Tool
+  - Fetches hg json-pushes for Nightly cycle
+  - Extracts bug IDs from pushlog
+  - Queries Bugzilla with batches of bugs
+  - Produces a single JSON file
+----------------------------------------------------------------------
